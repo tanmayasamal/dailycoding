@@ -1,0 +1,14 @@
+//Count no of characters in a string except the white space
+public class TotChars{
+public static void main(String [] args){
+String str="write a program to count the total no of characters in a string";
+count=0;
+for(int i=0;i<str.length()-1;i++){
+if(str.charAt(i)!=" ")
+{
+count++;
+}
+}
+System.out.println("The total no of characters in the string is:",count);
+}
+}
